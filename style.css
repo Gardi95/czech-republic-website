@@ -1,0 +1,437 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&family=Righteous&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+    /*   Home Page  */
+
+body.mcha{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato';
+  
+}
+
+.navbar-brand{
+    font-family: 'pacifico';
+    font-size: 35px;
+    color: lightcoral !important;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: black !important;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover{
+    color: #00E8E8 !important;
+
+}
+
+.active .nav-link{
+    color: #00E8E8 !important;;
+}
+
+.site-content{
+    background-image: url('Stock/Pexels-1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-title, .site-desc{
+    color: white;
+    font-family: 'Righteous';
+}
+
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px; 
+}
+
+.site-desc{
+    font-size: 20px;
+    padding: 15%;
+}
+
+.site-btn1{
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+
+}
+
+.site-btn2{
+    margin-left: 20%;
+    background-color: white;
+}
+.site-btn1, .site-btn2{
+    margin-top: 5%;
+    margin-bottom: 30%;
+    
+}
+
+/*   Section-1   */
+
+.section-1{
+    background-color: rgb(255, 255, 255);
+}
+
+.section-1 .heading-1{
+    margin-top: 8%;
+}
+
+.section-1 .heading-2{
+    margin-bottom: 5%;
+    font-size: 39px;
+}
+
+.section-1 .para-1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.section-1 .card-text, .para-1{
+    color: rgb(0, 0, 0);
+}
+
+.section-1{
+    margin-bottom: 10%;
+}
+
+.card{
+    width: 20rem;
+    margin-top: 20%;
+    cursor: pointer;
+    margin-bottom: 20%;
+}
+
+.card img{
+    transform:translateY(-50px) ;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.card .card-body{
+    visibility: hidden;
+    transform: translateY(-150px);
+    height: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.card:hover .card-body{
+    visibility: visible;
+    transform: translateY(-20px);
+    transition: .2s;
+    height: auto;
+}
+
+
+    /*   Section-2   */
+
+.section-2 .container-fluid{
+    background-image: url('Stock/Pexels-6.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-2 .heading-1{
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: 'Righteous';
+    width: 80%;
+    color: rgb(255, 255, 255);
+}
+.section-2 .para{
+    width: 80%;
+    font-family: 'Ubuntu';
+    color: rgb(0, 0, 0);
+    margin-bottom: 7%;
+}
+
+.section-2 .btn{
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 5%;
+}
+
+.section-2{
+    margin-bottom: 3%;
+}
+
+    /*   Section-3   */
+
+.section-3 .row .col-md-7, .col-md-5{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.section-3 .para-1{
+    color: wheat;
+    font-family:'Roboto Condensed'; 
+    margin-top: 7%;
+    font-size: 18px;
+}
+
+    /*   Footer   */
+
+.social i{
+    color: red;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+    /*   Cities Page   */
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Ubuntu, sans-serif';
+    }
+    
+       /*   Cities   */
+    
+    #cities{
+         background-color: #dbe5e6;
+         padding: 30px 0px;
+          margin-bottom: 5%;
+    }
+    
+    #cities h1{
+        font-weight: 900;
+        font-size: 34px;
+        padding-bottom: 20px;
+    }
+    
+    #cities p{
+        font-weight: 900;
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    
+    .title{
+        text-align: center;
+        padding: 25px 0px;
+    }
+    
+    .title p{
+        font-size: 18px;
+    }
+    
+    .card{
+        margin: 20px 10px;
+    }
+    
+    .card-body a{
+        color: rgb(240, 225, 205);
+        text-decoration: none;
+        font-size: 15px;
+        margin-top: auto;
+        font-weight: 600;
+    }
+    
+    .card-body a:hover{
+        color: #63a6b0;
+    }
+    
+    
+       /*  Blog Page */
+       
+    
+    .site-content-2{
+        background-image: url('Stock/Pexels-14.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .site-desc-b{
+        color: rgb(0, 0, 0);
+        font-family: 'Righteous';
+        font-size: 20px;
+    }
+    
+    .site-desc-b{
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        text-align: center;
+    }
+    
+    
+    /* Money Page */
+    
+    body.hawa{
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+        background-image: url("Stock/bk.jpg");
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+      
+    .container-3{
+        background-color: rgb(190, 194, 197);
+        opacity: 0.8;
+        height: 80%;
+        width: 80%;
+        margin-top: 10vh;
+        padding:20px;
+        margin: 10%;
+        border: none;
+        border-radius: 20px;   
+        text-align: center;
+        align-content: center;
+    }
+    
+    .currency{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        
+    }
+    
+    .currency select {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:transparent;
+    color: #0e3114;
+    width : 80px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    }
+    
+    .currency input {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+        background-color: transparent;
+        color: #192c1e;
+        width: 400px;
+        height: 40px;
+        border: none;
+        border-radius: 30px;
+        padding:2px;
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-top: 4px;
+        
+    }
+    .currency select option{
+        background-color: #89c095;
+        font-size: 1rem;
+        color: rgb(20, 41, 26);
+        
+    }
+    
+    .result {
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+     button#exchange  {
+        width: 80px;
+        height: 80px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: transparent;
+        color:#213a25;
+        font-weight: bold;
+        font-size: 2.5rem;
+        text-align: center;
+        justify-content: center;
+        padding-bottom : 0.3rem;
+        border: none;
+       /* border: 2px solid #000;*/
+        border-radius: 50%;
+    }
+    
+     button#exchange:hover{
+        color: #e5e7e5;
+        background-color: #5f2419;
+        border: none;
+        border-radius: 50%;
+    }
+    
+    
+    
+     .rate{
+       
+        color: #5f2419;    
+        width: 500px;
+        height: 35px;
+        border-radius: 15px   ;
+        border-radius: 35px;
+        margin-top: 80px;
+        font-weight: 500;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    select:focus, input:focus, button:focus {
+        outline: 0;
+    }
+    
+
+
+
+@media screen and (max-width:768px) {
+    .section-1 .card{
+        width: 14rem;
+    }
+
+    .section-3 .col-md-7 img{
+        width: 350px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .site-content .site-title{
+        font-size: 30px;
+        padding-left: 15%;
+    }
+    
+    .site-content .site-btn2{
+        display: none;
+    }
+
+    .site-content .site-btn1{
+        margin-left: 15%;
+    }
+
+    .section-1 .heading-1 , .section-1 .heading-2{
+        font-size: 25px;
+    }
+
+    .section-1.col-md-4{
+        padding: 5%;
+        margin-left: 8%;
+    }
+
+
+    .section-1 .card{
+        width: 15rem;
+    }
+
+    .section-3 .col-md-5{
+        padding: 0% 15px;
+
+    }
+
+    footer input[type="button"]{
+        margin-top: 5%;
+    }
+
+}
+
